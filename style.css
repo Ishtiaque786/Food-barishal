@@ -4,6 +4,9 @@
   text-decoration: none;
   list-style: none;
 }
+
+/* navbar section start */
+
 nav {
   height: 70px;
   width: 100%;
@@ -34,6 +37,9 @@ nav {
   border-radius: 6px;
   transition: 0.7s;
 }
+/* navbar section end */
+
+/* first section start */
 span {
   color: #0984e3;
 }
@@ -68,12 +74,14 @@ p {
   border-radius: 15px;
 }
 .top-banner {
-  /* background-image: url(images/top-bg.jpg);
-   */
-  background-color: #d1d8e0;
-  background-position: no-repeat;
+  background-image: url(images/frame59.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
   height: 400px;
 }
+/* first section end */
+
+/* About us section start */
 .about-us {
   display: flex;
   padding: 5%;
@@ -84,9 +92,9 @@ p {
 .contact-us {
   margin-top: 30px;
 }
-/* .about-us-text {
-  padding: 10px;
-} */
+/* About us section end */
+
+/* Our menu section start */
 .recipiesinfo {
   padding: 30px 0 0 0;
   text-align: center;
@@ -105,6 +113,9 @@ p {
 .three-item h2 {
   margin: 20px 0 15px 0;
 }
+/* Our menu section start */
+
+/* Social media section start */
 .social {
   display: flex;
   justify-content: space-around;
@@ -114,6 +125,8 @@ p {
   box-shadow: 10px 10px 40px gray;
   border-radius: 16px;
 }
+/* Social media section start */
+/* Footer section start */
 footer {
   text-align: center;
   background-color: #a5b1c2;
@@ -126,3 +139,4 @@ footer {
 .foot2 {
   margin: 30px;
 }
+/* Footer section end */
