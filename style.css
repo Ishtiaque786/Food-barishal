@@ -79,8 +79,20 @@ p {
   display: flex;
   justify-content: space-around;
   width: 80%;
-  margin: 100px 0 120px 120px;
-  padding: 20px 20px 20px 20px;
+  margin: 120px 0 120px 120px;
+  padding: 40px 40px 40px 40px;
   box-shadow: 10px 10px 40px gray;
   border-radius: 16px;
+}
+footer {
+  text-align: center;
+  background-color: #a5b1c2;
+  padding: 30px;
+}
+.foot1 {
+  margin: 30px;
+}
+
+.foot2 {
+  margin: 30px;
 }
