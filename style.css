@@ -8,7 +8,7 @@
 /* navbar section start */
 
 nav {
-  height: 70px;
+  height: 85px;
   width: 100%;
   background-color: #a29bfe;
 }
@@ -126,6 +126,36 @@ p {
   border-radius: 16px;
 }
 /* Social media section start */
+
+/* Feedback section start */
+
+.feedback {
+  background-color: #45aaf2;
+  text-align: center;
+  margin: 100px 0 0 0;
+  padding: 40px 0 40px 0;
+  background-image: url(images/frame58.jpg);
+}
+.feedback-half-side {
+  display: flex;
+  width: 50%;
+  margin: 50px 0 10px 350px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 16px;
+}
+.feedback-half-side div input {
+  margin-left: 100px;
+}
+input,
+textarea {
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  margin: 10px 20px 10px 20px;
+}
+/* Feedback section end */
+
 /* Footer section start */
 footer {
   text-align: center;
