@@ -4,12 +4,42 @@
   text-decoration: none;
   list-style: none;
 }
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: #a29bfe;
+}
+
+.logo {
+  margin: 0 0 0 50px;
+}
+.navcontainer {
+  display: flex;
+  padding: 0 0 100px 0;
+}
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 0 0 600px;
+  font-size: 18px;
+}
+.list-items li a {
+  margin: 10px 10px 0 10px;
+  padding: 10px;
+  color: white;
+}
+.list-items li a:hover {
+  color: #22a6b3;
+  background-color: #c7ecee;
+  border-radius: 6px;
+  transition: 0.7s;
+}
 span {
   color: #0984e3;
 }
 .top-banner {
   display: flex;
-  padding: 0 0 0 5%;
+  padding: 50px 0 100px 50px;
 }
 .half-side {
   width: 50%;
@@ -79,7 +109,7 @@ p {
   display: flex;
   justify-content: space-around;
   width: 80%;
-  margin: 120px 0 120px 120px;
+  margin: 120px 0 120px 100px;
   padding: 40px 40px 40px 40px;
   box-shadow: 10px 10px 40px gray;
   border-radius: 16px;
